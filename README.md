@@ -4,9 +4,11 @@ Linux driver for RTL8723DS. The master branch is based on Realtek Version 000071
 
 Run the following commands in the Linux terminal.
 
+```shell
 git clone https://github.com/wsyco/RTL8723DS_WIFI_Linux.git
 cd RTL8723DS_WIFI_Linux
 make
 make install
 modprobe -v 8723ds
 lsmod | grep 8723ds
+```
